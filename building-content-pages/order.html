@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/building-content-pages/site.css" type="text/css">
+    <link rel="stylesheet" href="/building-content-pages/order.css" type="text/css">
+    <title>Order | Bethany's Pie Shop</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/building-content-pages/">Home</a></li>
+                <li><a href="/building-content-pages/pies.html">Pies</a></li>
+                <li><a href="/building-content-pages/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <aside><img src="/building-content-pages/images/logo.png" alt="Bethany's Pie Shop"></aside>
+        <article>
+            <h1>Order</h1>
+            <div class="pie">
+                <img src="" />
+                <div class="columns">
+                    <div class="title"></div>
+                    <div class="price"></div>
+                </div>
+                <p class="desc"></p>
+            </div>
+            <form action="" method="post">
+                <input type="hidden" id="pie-order" name="pie-order" />
+                <input type="hidden" id="location" name="location" />
+                
+                <div class="input-group">
+                    <div><label for="first-name">First name</label></div>
+                    <div><input type="text" name="first-name" id="first-name" /></div>
+                </div>
+
+                <div class="input-group">
+                    <div><label for="last-name">Last name</label></div>
+                    <div><input type="text" name="last-name" id="last-name" /></div>
+                </div>
+
+                <div class="input-group">
+                    <div><label for="address">Address</label></div>
+                    <div><input type="text" name="address" id="address" /></div>
+                </div>
+
+                <div class="input-group">
+                    <div><label for="state">State</label></div>
+                    <div>
+                        <select name="state" id="state">
+                            <option value="" selected>[ Select one ]</option>
+                            <option value="Alabama">Alabama</option>
+                            <option value="New York">New York</option>
+                            <option value="California">California</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div><label for="postal-code">Postal code</label></div>
+                    <div><input type="text" name="postal-code" id="postal-code" /></div>
+                </div>
+
+                <div class="input-group">
+                    <div><label for="comments">Comments</label></div>
+                    <div>
+                        <textarea 
+                            name="comments" 
+                            id="comments" 
+                            cols="30" 
+                            rows="10"
+                        ></textarea>
+                    </div>
+                </div>
+
+                <input type="reset" value="Reset" />
+                <input type="submit" value="Order" />
+            </form>
+        </article>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="/building-content-pages/">Home</a></li>
+                <li><a href="/building-content-pages/pies.html">Pies</a></li>
+                <li><a href="/building-content-pages/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="/building-content-pages/order.js" type="text/javascript"></script>
+</body>
+</html>
